@@ -2,10 +2,6 @@
  
 namespace php;
 
-
-
-
-
 $result =0;
 
 class calculator
@@ -43,14 +39,13 @@ class calculator
 $cal = new calculator();
 
 
+
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $submit = $_POST['submit'];
     $firstNumber = $_POST['first_num'];
     $secondNumber = $_POST['second_num'];
-    $operator = $_POST['operator'];
-}
-
-if (isset($submit)) {
+    $operator = $_POST['operatorre code '];
     $result = $cal->getResult($firstNumber, $secondNumber, $operator);
 }
+
 
