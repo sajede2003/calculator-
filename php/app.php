@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $submit = $_POST['submit'];
     $firstNumber = $_POST['first_num'];
     $secondNumber = $_POST['second_num'];
-    $operator = $_POST['operatorre code '];
+    $operator = $_POST['operator'];
     $result = $cal->getResult($firstNumber, $secondNumber, $operator);
 }
 
