@@ -41,7 +41,6 @@ $cal = new calculator();
 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    $submit = $_POST['submit'];
     $firstNumber = $_POST['first_num'];
     $secondNumber = $_POST['second_num'];
     $operator = $_POST['operator'];

@@ -40,7 +40,7 @@ include './php/app.php';
                 </select>
 
                 <div class="btns">
-                    <button type="submit"  method="post" value="submit" id="sub">Submit</button>
+                    <button type="submit" method="post" value="submit" id="sub">Submit</button>
                     <button type="button" id="del">Clear</button>
                 </div>
             </form>
